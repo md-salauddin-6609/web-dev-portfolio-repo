@@ -29,11 +29,27 @@
     border-radius: 5px;
 }
 
+.section-title{
+    font-weight: bold;
+    font-size: 35px;
+    color: #181818;
+}
+.section-description{
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+}
+
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+
 /* header design */
 .header{
     background-image: url("../images/developer.png"), url("../images/header_bg.png");
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+    background-color: #FFF8F3;
 }
 
 /* design nav  */
@@ -79,4 +95,27 @@ nav li a{
 }
 .banner-profile-pic{
     width: 580px;
+}
+/* main design */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* About me design */
+.about-me{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description{
+    font-weight: 600px;
+}
+.item-title{
+    color: #757575;
 }
